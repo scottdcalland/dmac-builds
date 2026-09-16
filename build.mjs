@@ -31,10 +31,9 @@ const IMG = {
   "work-05": { file: "work/work-05.jpg", alt: "Brick and block side-return wall built between two houses with insulation board as part of an extension by DMac Builds", cap: "Side-return extension" },
   "work-06": { file: "work/work-06.jpg", alt: "Red brick garden pier and boundary wall built by DMac Builds in the Wigan area", cap: "Brick garden pier" },
   "work-07": { file: "work/work-07.jpg", alt: "Concrete strip foundations with steel mesh and a new blockwork pier at the start of a groundworks job", cap: "Strip foundations" },
-  "work-08": { file: "work/work-08.jpg", alt: "Danny Mac, founder of DMac Builds, a bricklayer based in Platt Bridge, Wigan", cap: "Danny Mac, DMac Builds" },
   "work-09": { file: "work/work-09.jpg", alt: "Close-up of a trowel pointing fresh mortar along a course of concrete blocks with a string line", cap: "Pointing & bricklaying" },
 };
-const imgOrder = ["work-02","work-01","work-06","work-03","work-04","work-07","work-05","work-09","work-08"];
+const imgOrder = ["work-02","work-01","work-06","work-03","work-04","work-07","work-05","work-09"];
 
 // Instagram reels (shortcodes) for embedded video
 const REELS = ["DcdLq0ltfNJ","DdHNRC8RKXd","Dc1VjGUIwCy","DdGiAbcSqim","Dc8CfGXxc6U","DcRKhLoNFsh"];
@@ -453,7 +452,7 @@ ${header(rel, "home")}
 <section class="section section--paper2">
   <div class="wrap">
     <div class="split">
-      <div class="split__media">${imgTag(rel, "work-08")}<span class="badge-note">Brick by brick</span></div>
+      <div class="split__media">${imgTag(rel, "work-09")}<span class="badge-note">Brick by brick</span></div>
       <div>
         <span class="eyebrow">Who we are</span>
         <h2>A local builder who turns up and does it right</h2>
@@ -707,7 +706,7 @@ function pageAbout() {
     title: "About DMac Builds | Wigan Builder & Bricklayer",
     desc: "DMac Builds is run by Danny Mac, a bricklayer based in Platt Bridge, Wigan, specialising in bricklaying, landscaping and bespoke garden design across the Wigan area.",
     canonical: `${SITE.domain}/about.html`,
-    ogimg: "work-08",
+    ogimg: "work-07",
   }) + `<body>
 ${header(rel, "about")}
 <section class="page-hero">
@@ -721,7 +720,7 @@ ${header(rel, "about")}
 <section class="section">
   <div class="wrap">
     <div class="split">
-      <div class="split__media">${imgTag(rel, "work-08")}<span class="badge-note">${SITE.owner}</span></div>
+      <div class="split__media">${imgTag(rel, "work-01")}<span class="badge-note">${SITE.tagline}</span></div>
       <div class="prose">
         <span class="eyebrow">The firm</span>
         <h2>Building brick by brick in Wigan</h2>
