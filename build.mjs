@@ -20,7 +20,7 @@ const SITE = {
   instagram: "https://www.instagram.com/dmacbuilds/",
   facebook: "https://www.facebook.com/61587794803724",
   radius: 20,
-  domain: "https://dmacbuilds.co.uk", // used for canonical/OG placeholders
+  domain: "https://dmac-builds.pages.dev", // live URL; change to the real domain (e.g. dmacbuilds.co.uk) when attached
 };
 
 const IMG = {

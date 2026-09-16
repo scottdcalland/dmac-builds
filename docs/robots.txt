@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://dmacbuilds.co.uk/sitemap.xml
+Sitemap: https://dmac-builds.pages.dev/sitemap.xml
